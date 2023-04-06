@@ -1,0 +1,9 @@
+.tshirt-container{
+    border: 1px solid palegoldenrod;
+    border-radius: 15px;
+    padding: 10px;
+}
+.t-img{
+    width: 300px;
+    height: 400px;
+}
