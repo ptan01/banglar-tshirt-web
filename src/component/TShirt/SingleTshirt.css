@@ -7,3 +7,12 @@
     width: 300px;
     height: 400px;
 }
+
+.cart-btn{
+    width: 50%;
+    background-color: bisque;
+    border-radius: 8px;
+    border: 0px;
+    padding: 10px;
+    cursor: pointer;
+}
