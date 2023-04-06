@@ -12,6 +12,9 @@ const Cart = ({ cart ,handleRemove }) => {
         <div>
             <h4>Selectd T-Shrit</h4>
             {
+               cart.length === 0 && <p><small>Please add some T-Shirt</small></p> 
+            }
+            {
                 cart.map(crt => <div style={style} key={crt._id}>
                     <p>{crt.name}</p>
                     <button onClick={()=>handleRemove(crt._id)} className='remove-btn'>Remove</button>

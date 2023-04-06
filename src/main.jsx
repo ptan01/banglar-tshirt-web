@@ -7,6 +7,7 @@ import Main from './component/Leyout/Main'
 import Home from './component/Home/Home'
 import About from './component/About/About'
 import Order from './component/Order/Order'
+import Grandpa from './component/PropsDriling/grandpa'
 
 const router = createBrowserRouter([
   {
@@ -25,6 +26,10 @@ const router = createBrowserRouter([
       {
         path: '/about',
         element: <About></About>
+      },
+      {
+        path: '/contex',
+        element: <Grandpa></Grandpa>
       }
     ]
   }
